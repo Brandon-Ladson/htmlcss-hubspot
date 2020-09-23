@@ -27,6 +27,7 @@ background-position: center;
 /* regole top bar */
 .top-bar{
   background-color: #fff;
+  padding: 0 10%;
   border-bottom: 1px solid black;
   /* debug */
 }
@@ -58,6 +59,7 @@ background-position: center;
 /* regole nav bar */
 nav{
   background-color: #fff;
+  padding: 0 10%;
   /* debug */
   width: 100%;
 }
