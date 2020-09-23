@@ -27,7 +27,7 @@ background-position: center;
 /* regole top bar */
 .top-bar{
   background-color: #fff;
-  padding: 0 10%;
+  padding: 1% 10%;
   border-bottom: 1px solid black;
   /* debug */
 }
@@ -44,22 +44,30 @@ background-position: center;
 
 .header-item{
   color: #000;
-  /* padding: 5px; */
   /* debug */
   display: inline-block;
+  padding: 10px 0;
+  margin-right: 30px;
+}
+
+.right-top-bar a:first-child{
+  color: #fe775a;
+  border: 1px solid #fe775a;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 .orange-button{
   color: #fff;
   background-color: #fe775a;
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px;
 }
 
 /* regole nav bar */
 nav{
   background-color: #fff;
-  padding: 0 10%;
+  padding: 1% 10%;
   /* debug */
   width: 100%;
 }
