@@ -32,6 +32,15 @@ background-position: center;
   margin-right: 30px;
 }
 
+.fa-check-circle{
+  color: #fe775a;
+}
+
+.fa-search{
+  color: #00a7ba;
+  margin-right: 20px;
+}
+
 /* regole top bar */
 .top-bar{
   background-color: #fff;
@@ -50,7 +59,7 @@ background-position: center;
   float: right;
 }
 
-.right-top-bar a:first-child{
+#log-in{
   color: #fe775a;
   border: 1px solid #fe775a;
   border-radius: 5px;
