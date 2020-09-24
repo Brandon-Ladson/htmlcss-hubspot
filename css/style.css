@@ -107,99 +107,159 @@ nav{
 main{
   /* debug */
   background-color: yellow;
-}
-
-main section{
   padding: 0 10%;
 }
 
 /* regole prima sezione */
 
 /* regolle parte superiore prima sezione */
-.top-section{
+.first-section .top-section{
   margin: 5% 0;
   text-align: center;
 }
 
-.top-section p{
+.first-section .top-section p{
   margin-top: 30px;
 }
 
 /* regole parte centrale prima sezione */
-.central-section{
+.first-section .central-section{
   background-color: #fff;
 }
 
-.right-central-section{
+.first-section .right-central-section{
   text-align: center;
   float: left;
   margin-right: 200px;
 }
 
-.right-central-section img{
+.first-section .right-central-section img{
   width: 150px;
   display: block;
 }
 
-.right-central-section .orange-button{
+.first-section .right-central-section .orange-button{
   padding: 20px 40px;
   display: inline-block;
   margin: 30px 0;
 }
 
-.left-central-section p{
+.first-section .left-central-section p{
   margin: 30px 0;
 }
 
-.left-central-section ul{
+.first-section .left-central-section ul{
   margin-top: 30px;
 }
 
-.left-central-section li{
+.first-section .left-central-section li{
   display: inline-block;
   margin-right: 70px;
 }
 
 /* regole parte inferiore prima sezione */
-.bottom-section{
+.first-section .bottom-section{
   background-color: lightgreen;
 }
 
-.box{
+.first-section .box{
   width: calc(100% / 3 - 10%);
   float: left;
   background-color: #fff;
   text-align: center;
 }
 
-.bottom-section .box:nth-child(2){
+.first-section .bottom-section .box:nth-child(2){
   margin: 0 10%;
   text-align: center;
 }
 
-.bottom-section img{
+.first-section .bottom-section img{
   height: 100px;
 }
 
-.bottom-section h3{
+.first-section .bottom-section h3{
   margin: 30px 0;
 }
 
-.bottom-section hr{
+.first-section .bottom-section hr{
   margin: 30px 0;
 }
 
-.bottom-section div{
+.first-section .bottom-section div{
   text-align: left;
   margin-left: 30px;
 }
 
-.bottom-section .orange-button{
+.first-section .bottom-section .orange-button{
   padding: 20px 40px;
   display: inline-block;
   margin: 30px 0;
 }
 
+/* regole seconda sezione */
+.second-section{
+  background-color: #00a7ba;
+}
+
+/* regole parte superiore seconda sezione */
+.second-section .top-section{
+  background-color: #00a7ba;
+}
+
+.second-section h2{
+  color: #fff;
+  text-align: center;
+}
+
+.second-section p{
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* regole parte inferiore seconda sezione */
+.second-section .bottom-section{
+  margin-top: 30px;
+  padding: 30px;
+}
+
+.second-section .box{
+width: calc(100% / 4);
+float:left;
+border-right: 1px solid #fff;
+height: 150px;
+position: relative;
+}
+
+.second-section .top-row .box:nth-child(4){
+  border-right: 0;
+}
+
+.second-section .bottom-row .box:nth-child(4){
+  border-right: 0;
+}
+
+.second-section .content-box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
+.second-section .top-row{
+  text-align: center;
+  border-bottom: 1px solid #fff;
+}
+
+.second-section .bottom-row{
+  text-align: center;
+}
+
+.second-section .box-item{
+  color: #fff;
+  margin-top: 10px;
+}
 
 /* regole footer */
 footer{
