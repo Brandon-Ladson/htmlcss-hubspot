@@ -261,6 +261,51 @@ position: relative;
   margin-top: 10px;
 }
 
+/* regole terza sezione */
+.third-section{
+  background-color: pink;
+  height: 600px;
+}
+
+/* regole parte superiore terza sezione */
+.third-section .top-section{
+}
+
+.third-section .left-top-section{
+  display: inline-block;
+}
+
+.third-section .right-top-section{
+  float: right;
+}
+/* regole parte inferiore terza sezione */
+.third-section .bottom-section{
+}
+
+.left-bottom-section{
+  margin: 5% 10%;
+  float: left;
+}
+
+.left-bottom-section h1{
+  margin-bottom: 30px;
+}
+
+.left-bottom-section .orange-button{
+  padding: 20px 40px;
+  display: inline-block;
+  margin: 30px 0;
+}
+
+.left-bottom-section .free-message{
+  font-size: 12px;
+}
+
+.third-section .bottom-section img{
+  float: right;
+  height: 300px;
+}
+
 /* regole footer */
 footer{
   /* debug */
