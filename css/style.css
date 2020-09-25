@@ -330,12 +330,11 @@ position: relative;
 footer{
   /* debug */
   background-color: #32495b;
+  padding: 50px 10%;
 }
 
 /* regole parte superiore del footer */
 footer .top-section{
-  width: 80%;
-  margin: auto;
 }
 
 footer .top-section .box{
@@ -346,6 +345,14 @@ footer .top-section .box{
 
 footer .top-section .content-box{
   color: #fff;
+}
+
+footer .top-section .content-box h3{
+  margin-bottom: 10px;
+}
+
+footer .top-section .content-box div{
+  margin-bottom: 10px;
 }
 
 #white-button{
@@ -359,8 +366,7 @@ footer .top-section .content-box{
 footer .central-section{
   text-align: center;
   border-bottom: 1px solid #fff;
-  margin-bottom: 20px;
-  margin: 0 10%;
+  margin: 30px 0;
 }
 
 footer ul{
@@ -375,9 +381,7 @@ footer li{
 }
 
 footer .bottom-section{
-  margin: 0 10%;
   color: #fff;
-  margin-bottom: 20px;
   margin-top: 20px;
 }
 
