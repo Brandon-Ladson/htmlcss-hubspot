@@ -139,6 +139,7 @@ main{
   background-color: #fff;
   margin-bottom: 50px;
   padding: 30px;
+  box-shadow: 2px 1px 2px 1px #cecece;
 }
 
 .first-section .right-central-section{
@@ -211,6 +212,7 @@ main{
 /* regole seconda sezione */
 .second-section{
   background-color: #00a7ba;
+  padding: 50px 10%;
 }
 
 /* regole parte superiore seconda sezione */
@@ -231,8 +233,7 @@ main{
 
 /* regole parte inferiore seconda sezione */
 .second-section .bottom-section{
-  margin-top: 30px;
-  padding: 30px;
+  margin-top: 50px;
 }
 
 .second-section .box{
@@ -274,11 +275,12 @@ position: relative;
 
 /* regole terza sezione */
 .third-section{
-  background-color: pink;
+  padding: 50px 10%;
 }
 
 /* regole parte superiore terza sezione */
 .third-section .top-section{
+  border: 1px solid black;
 }
 
 .third-section .left-top-section{
@@ -290,6 +292,7 @@ position: relative;
 }
 /* regole parte inferiore terza sezione */
 .third-section .bottom-section{
+  border: 1px solid black;
 }
 
 .third-section .left-bottom-section{
