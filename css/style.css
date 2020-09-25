@@ -276,15 +276,21 @@ position: relative;
 /* regole terza sezione */
 .third-section{
   padding: 50px 10%;
+  background-color: #fff;
 }
 
 /* regole parte superiore terza sezione */
 .third-section .top-section{
-  border: 1px solid black;
+  padding: 0 150px;
 }
 
 .third-section .left-top-section{
   display: inline-block;
+}
+
+.third-section .left-top-section h1{
+  font-size: 40px;
+  margin-bottom: 30px;
 }
 
 .third-section .right-top-section{
@@ -292,16 +298,17 @@ position: relative;
 }
 /* regole parte inferiore terza sezione */
 .third-section .bottom-section{
-  border: 1px solid black;
+  margin-top: 50px;
 }
 
 .third-section .left-bottom-section{
-  margin: 5% 10%;
+  /* margin: 5% 10%; */
   float: left;
 }
 
 .left-bottom-section h1{
   margin-bottom: 30px;
+  font-size: 30px;
 }
 
 .left-bottom-section .orange-button{
