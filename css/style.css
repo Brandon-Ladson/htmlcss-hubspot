@@ -25,11 +25,10 @@ background-position: center;
 }
 
 .header-item{
-  color: #000;
-  /* debug */
   display: inline-block;
-  padding: 10px 0;
+  color: #000;
   margin-right: 30px;
+  padding: 10px 0;
 }
 
 .fa-check-circle{
@@ -41,16 +40,15 @@ background-position: center;
   margin-right: 20px;
 }
 
+.fa-chevron-down{
+  margin-left: 10px;
+}
+
 /* regole top bar */
 .top-bar{
   background-color: #fff;
   padding: 1% 10%;
   border-bottom: 1px solid black;
-  /* debug */
-}
-
-.fa-chevron-down{
-  margin-left: 10px;
 }
 
 /* rogole top bar sinistra */
@@ -65,28 +63,22 @@ background-position: center;
 
 #log-in{
   color: #fe775a;
+  padding: 10px;
   border: 1px solid #fe775a;
   border-radius: 5px;
-  padding: 10px;
 }
 
 .orange-button{
   color: #fff;
   background-color: #fe775a;
-  border-radius: 5px;
   padding: 10px;
+  border-radius: 5px;
 }
 
 /* regole nav bar */
 nav{
   background-color: #fff;
   padding: 1% 10%;
-  /* debug */
-  width: 100%;
-}
-
-.nav-logo{
-  /* debug */
 }
 
 .menu{
@@ -107,9 +99,9 @@ nav{
 }
 
 .header-content .orange-button{
-  padding: 20px 40px;
   display: inline-block;
   margin: 30px 0;
+  padding: 20px 40px;
 }
 
 .header-content .free-message{
@@ -118,9 +110,7 @@ nav{
 
 /* regole pagina principale */
 main{
-  /* debug */
   background-color: #f4f9fd;
-  padding: 0;
 }
 
 /* regole prima sezione */
@@ -153,13 +143,13 @@ main{
 }
 
 .first-section .right-central-section img{
-  width: 150px;
   display: block;
+  width: 150px;
 }
 
 .first-section .right-central-section .orange-button{
-  padding: 20px 40px;
   display: inline-block;
+  padding: 20px 40px;
   margin-top: 30px;
 }
 
@@ -177,13 +167,10 @@ main{
 }
 
 /* regole parte inferiore prima sezione */
-.first-section .bottom-section{
-}
-
-.first-section .box{
+.first-section .bottom-section .box{
+  background-color: #fff;
   width: calc(100% / 3 - 4%);
   float: left;
-  background-color: #fff;
   text-align: center;
   margin: 0 2%;
   box-shadow: 2px 1px 2px 1px #cecece;
@@ -208,22 +195,18 @@ main{
 }
 
 .first-section .bottom-section .orange-button{
-  padding: 20px 40px;
   display: inline-block;
+  padding: 20px 40px;
   margin: 30px 0;
 }
 
 /* regole seconda sezione */
 .second-section{
-  background-color: #00a7ba;
+  background-image: linear-gradient(45deg, #00A4BD, #00BDA5);
   padding: 50px 10%;
 }
 
 /* regole parte superiore seconda sezione */
-.second-section .top-section{
-  background-color: #00a7ba;
-}
-
 .second-section h2{
   color: #fff;
   text-align: center;
@@ -246,14 +229,6 @@ float:left;
 border-right: 1px solid #fff;
 height: 150px;
 position: relative;
-}
-
-.second-section .top-row .box:nth-child(4){
-  border-right: 0;
-}
-
-.second-section .bottom-row .box:nth-child(4){
-  border-right: 0;
 }
 
 .second-section .content-box{
@@ -300,13 +275,17 @@ position: relative;
 .third-section .right-top-section{
   float: right;
 }
+
+.third-section .right-top-section img{
+  width: 400px;
+}
+
 /* regole parte inferiore terza sezione */
 .third-section .bottom-section{
   margin-top: 50px;
 }
 
 .third-section .left-bottom-section{
-  /* margin: 5% 10%; */
   float: left;
 }
 
@@ -316,8 +295,8 @@ position: relative;
 }
 
 .left-bottom-section .orange-button{
-  padding: 20px 40px;
   display: inline-block;
+  padding: 20px 40px;
   margin: 30px 0;
 }
 
@@ -332,15 +311,11 @@ position: relative;
 
 /* regole footer */
 footer{
-  /* debug */
   background-color: #32495b;
   padding: 50px 10%;
 }
 
 /* regole parte superiore del footer */
-footer .top-section{
-}
-
 footer .top-section .box{
   width: calc(100% / 4 - 2%);
   float: left;
@@ -360,20 +335,26 @@ footer .top-section .content-box div{
 }
 
 #white-button{
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 5px;
-  display: inline-block;
   color: black;
+  background-color: #fff;
+  display: inline-block;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
 
+footer .top-section ul{
+  display: inline-block;
+}
+
+/* regole parte centrale del footer */
 footer .central-section{
   text-align: center;
   border-bottom: 1px solid #fff;
   margin: 30px 0;
 }
 
-footer ul{
+footer .central-section ul{
   display: inline-block;
   margin-bottom: 20px;
 }
@@ -384,6 +365,7 @@ footer li{
   color: #fff;
 }
 
+/* regole parte inferiore del footer */
 footer .bottom-section{
   color: #fff;
   margin-top: 20px;
