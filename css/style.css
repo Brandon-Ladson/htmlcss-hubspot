@@ -252,6 +252,10 @@ position: relative;
   margin-top: 10px;
 }
 
+.second-section .content-box img{
+  height: 30px;
+}
+
 /* regole terza sezione */
 .third-section{
   padding: 50px 10%;
