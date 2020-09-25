@@ -49,6 +49,10 @@ background-position: center;
   /* debug */
 }
 
+.fa-chevron-down{
+  margin-left: 10px;
+}
+
 /* rogole top bar sinistra */
 .left-top-bar{
   display: inline-block;
